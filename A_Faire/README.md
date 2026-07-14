@@ -35,3 +35,10 @@ Avant d'ajouter de nouveaux référentiels, le moteur doit prouver sa résilienc
 
 * **Stress Test d'Ingestion :** Soumission de politiques de sécurité massives (dizaines de pages) pour observer le comportement de la fenêtre de contexte du modèle local et ajuster les stratégies de découpage (Chunking).
 * **Intégration EBIOS RM :** Une fois l'infrastructure stabilisée, réouverture du pipeline d'ingestion initial pour modéliser et implémenter la méthode d'analyse de risques de l'ANSSI.
+
+## 5. Implémentation d'une solution d'agent 100% local 
+possibilité de réaliser cela avec un agent local pour une confidentialité absolue !
+* **Agent IA Local Based :** Agent IA Local Based avec l'option native de LangChain
+## 6. Création d'une Version Compacte (all in one file)
+Simple fichier .py executable et fonctionnel
+* **Méchanisme 'Everything in one file' et supression du 'superflu' :** Base de données Qdrant stocké dans la RAM, pas de 'Human-in-the-Loop' asynchrone, pas de notification Teams ni d'upload sur un SharePoint. Une version très simplifiée qui conviendra à beaucoup de gens !
