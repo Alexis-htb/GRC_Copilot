@@ -1,0 +1,18 @@
+{
+    "anomalies": [
+        {
+            "constat": "La politique actuelle se limite à une contrainte de longueur de 12 caractères sans exiger l'authentification multifacteurs (MFA) pour l'accès aux systèmes d'importance critique.",
+            "loi_concernee": "DORA",
+            "article_associe": "Article 9",
+            "criticite": "Critique",
+            "remediation": "Mise en œuvre immédiate de l'authentification multifacteurs (MFA) et déploiement d'une politique de gestion des accès basée sur les rôles (RBAC) pour tous les systèmes financiers."
+        },
+        {
+            "constat": "L'absence de stratégie de gestion des mots de passe robustes (rotation, complexité au-delà de la longueur) ne répond pas aux exigences de sécurité des réseaux et des systèmes d'information.",
+            "loi_concernee": "NIS2",
+            "article_associe": "Article 21",
+            "criticite": "Moyen",
+            "remediation": "Intégration d'exigences de complexité cryptographique (caractères spéciaux, majuscules, chiffres) et implémentation d'une solution de gestion des accès à privilèges (PAM) pour les administrateurs."
+        }
+    ]
+}
